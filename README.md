@@ -6,7 +6,7 @@ $$f( x | \theta ) = \frac{\theta^2}{1+\theta} (1-x)^{-3} exp(−\frac{\theta x}{
 
 The quantile function, $Q( p| \theta ) = F^{−1} ( p | \theta )$, as
 
-$$Q( p | \theta ) = \frac{1 + \theta + W_{−1} ((1 + \theta )( p − 1 ) exp{−(1 + \theta)})}{1 + W_{−1} ((1 + \theta )( p − 1 ) exp{−(1 + \theta )})}, \ \ \ \ for \ \ 0 \leq p \leq 1$$,
+$$Q( p | \theta ) = \frac{1 + \theta + W_{−1} ((1 + \theta )( p − 1 ) exp[−(1 + \theta)])}{1 + W_{−1} ((1 + \theta )( p − 1 ) exp[−(1 + \theta )])}, \ \ \ \ for \ \ 0 \leq p \leq 1$$,
 
 where $W_{−1}$ denotes the negative branch of the Lambert W function.
 
